@@ -1,8 +1,8 @@
 # bump-yorishiro.yml が新リリース検出時に version / sha256 を書き換える。
 # sha256 の並びは on_arm → on_intel の順を前提にしているので入れ替えないこと。
 #
-# 注意: yorishiro_* 名の release 資産を持つのは v0.5.3 以降なので、
-# この cask が実際に機能するのも v0.5.3 以降。
+# 注意: yorishiro_* 名の release 資産を持つのは v0.6.0 以降なので、
+# この cask が実際に機能するのも v0.6.0 以降。
 # 下の sha256 は placeholder で、次回の bump で正しい値に置き換わる。
 cask "yorishiro" do
   version "0.5.2"

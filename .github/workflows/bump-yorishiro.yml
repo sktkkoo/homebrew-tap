@@ -35,7 +35,7 @@ jobs:
             echo "up to date ($CURRENT)"; exit 0
           fi
           # yorishiro_* 資産を持たない古い release では下の curl が失敗する
-          # （対象は v0.5.3 以降）。
+          # （対象は v0.6.0 以降）。
           echo "bumping $CURRENT -> $VERSION"
           # 両アーキの dmg が揃っていることを sha256 計算を兼ねて確認する。
           # 片方でも欠けていれば curl -f が落ち、workflow の失敗として気付ける。
